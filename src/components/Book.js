@@ -1,12 +1,10 @@
 
-const Book = () => {
+const Book = ({title, author, image}) => {
   return (
     <div>
       <h2>Titel</h2>
-      <h3>yo</h3>
-      <img src="./images/jip.jpg" alt="" />
-      <img src="./images/jip.jpg" alt="" />
-      <img src="./images/jip.jpg" alt="" />
+      <h3>author</h3>
+      <img src={image} alt="{title}" />
 
     </div>
   );
